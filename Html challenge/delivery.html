@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>For Your Doorstep Delivery</title>
+    </head>
+    <body>
+        <header><a href="index.html">Back to homepage</a></header>
+        <h1>For Your Doorstep Delivery<img src="media/img/shoes.jpg" width="50" height="50" alt="shoes"></h1>
+        <hr>
+    <form action="/mailinglist.php" method="POST">
+        <fieldset>
+            <legend>Your Details</legend>
+            <ul>
+                <li><label>Name<br><input type="text"Name="details" id="name" placeholder="Enter your fullname"></label></li>
+                <li><label>Email<br><input type="email"Name="details" id="email" placeholder="Enter your email"></label></li>
+                <li><label>Telephone Number<br><input type="tel"Name="details" id="phonenumber" placeholder="Enter your phone number"></label></li>
+                <li>Sex<br><input type="radio"Name="Sex" value="Male"> Male <input type="radio"Name="Sex" value="Female"> Female</li>
+                <li><label>Home Address</label><p></p><textarea name="homeadress" rows="10" cols="30" placeholder="Enter your home address"></textarea></li>
+            </ul>
+        </fieldset>
+          <fieldset>
+              <legend>Delivery Information</legend>
+              <ul>
+                <li>Shoe Type<br>
+                    <input type="radio"Name="Shoetype" value="Men's Type">Men's Type 
+                    <input type="radio"Name="Shoetype" value="Female's Type">Female's Type
+                </li>
+                <li>Colour<br>
+                    <input type="radio"Name="Colour" value="White">White
+                    <input type="radio"Name="Colour" value="Black">Black
+                    <input type="radio"Name="Colour" value="Red">Red
+                    <input type="radio"Name="Colour" value="Brown">Brown
+                    <input type="radio"Name="Colour" value="Purple">Purple
+                </li>
+                <li>Shoe Size<br>
+                    <input type="radio"Name="Shoesize" value="Small">Small
+                    <input type="radio"Name="Shoesize" value="Medium">Medium
+                    <input type="radio"Name="Shoesize" value="Large">Large
+                </li>
+                <li>Delivery Method<br>
+                    <input type="radio"Name="Deliverymethod" value="Regular mode">Regular Mode
+                    <input type="radio"Name="Deliverymethod" value="VIP mode">VIP Mode
+                    <input type="radio"Name="Deliverymethod" value="VVIP mode">VVIP Mode
+                </li>
+              </ul>
+          </fieldset>
+          <fieldset>
+              <legend>Payment Information</legend>
+              <ul>
+                <li>Bank<br>
+                <select name="select a bank">
+                    <option>Gt Bank</option>
+                    <option>First Bank</option>
+                    <option>FCMB</option>
+                    <option>Zenith Bank</option>
+                    <option>Access Bank</option>
+                    <option>Access Bank(Diamond)</option>
+                </select>
+                </li>
+                <li><label>Account Name<br><input type="text"Name="account" id="accountname" placeholder="Enter your account name"></label></li>
+                <li><label>Account Number<br><input type="number"Name="accountname" id="accountnumber" placeholder="Enter your account number"></label></li>
+              </ul>
+          </fieldset>
+    </form>
+    <input type="submit" value="Submit"> <input type="reset" value="Reset">
+    <hr>
+    <footer><i>Copyright ©2020.</p>
+        <p>All rights reserved.</i></footer>
+    </body>
+</html>
